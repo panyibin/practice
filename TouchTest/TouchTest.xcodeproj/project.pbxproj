@@ -7,71 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF48A35523A0D384000E4589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A35423A0D384000E4589 /* AppDelegate.m */; };
-		DF48A35823A0D384000E4589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A35723A0D384000E4589 /* ViewController.m */; };
-		DF48A35B23A0D384000E4589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF48A35923A0D384000E4589 /* Main.storyboard */; };
-		DF48A35D23A0D386000E4589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF48A35C23A0D386000E4589 /* Assets.xcassets */; };
-		DF48A36023A0D386000E4589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF48A35E23A0D386000E4589 /* LaunchScreen.storyboard */; };
-		DF48A36323A0D386000E4589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A36223A0D386000E4589 /* main.m */; };
-		DF48A36D23A0D386000E4589 /* TouchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A36C23A0D386000E4589 /* TouchTestTests.m */; };
-		DF48A37823A0D386000E4589 /* TouchTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A37723A0D386000E4589 /* TouchTestUITests.m */; };
-		DF48A38723A0D3A0000E4589 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A38623A0D3A0000E4589 /* MyButton.m */; };
+		DF48A39623A0D529000E4589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A39523A0D529000E4589 /* AppDelegate.m */; };
+		DF48A39923A0D529000E4589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A39823A0D529000E4589 /* ViewController.m */; };
+		DF48A39C23A0D529000E4589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF48A39A23A0D529000E4589 /* Main.storyboard */; };
+		DF48A39E23A0D52A000E4589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF48A39D23A0D52A000E4589 /* Assets.xcassets */; };
+		DF48A3A123A0D52A000E4589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF48A39F23A0D52A000E4589 /* LaunchScreen.storyboard */; };
+		DF48A3A423A0D52A000E4589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A3A323A0D52A000E4589 /* main.m */; };
+		DF48A3AE23A0D52A000E4589 /* TouchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A3AD23A0D52A000E4589 /* TouchTestTests.m */; };
+		DF48A3B923A0D52A000E4589 /* TouchTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A3B823A0D52A000E4589 /* TouchTestUITests.m */; };
+		DF48A3C823A0D547000E4589 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A3C723A0D547000E4589 /* MyButton.m */; };
+		DF48A3CB23A0D7EA000E4589 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48A3CA23A0D7EA000E4589 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF48A36923A0D386000E4589 /* PBXContainerItemProxy */ = {
+		DF48A3AA23A0D52A000E4589 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF48A34823A0D384000E4589 /* Project object */;
+			containerPortal = DF48A38923A0D529000E4589 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF48A34F23A0D384000E4589;
+			remoteGlobalIDString = DF48A39023A0D529000E4589;
 			remoteInfo = TouchTest;
 		};
-		DF48A37423A0D386000E4589 /* PBXContainerItemProxy */ = {
+		DF48A3B523A0D52A000E4589 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF48A34823A0D384000E4589 /* Project object */;
+			containerPortal = DF48A38923A0D529000E4589 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF48A34F23A0D384000E4589;
+			remoteGlobalIDString = DF48A39023A0D529000E4589;
 			remoteInfo = TouchTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF48A35023A0D384000E4589 /* TouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF48A35323A0D384000E4589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DF48A35423A0D384000E4589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF48A35623A0D384000E4589 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF48A35723A0D384000E4589 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF48A35A23A0D384000E4589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF48A35C23A0D386000E4589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF48A35F23A0D386000E4589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF48A36123A0D386000E4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF48A36223A0D386000E4589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DF48A36823A0D386000E4589 /* TouchTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF48A36C23A0D386000E4589 /* TouchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTestTests.m; sourceTree = "<group>"; };
-		DF48A36E23A0D386000E4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF48A37323A0D386000E4589 /* TouchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF48A37723A0D386000E4589 /* TouchTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTestUITests.m; sourceTree = "<group>"; };
-		DF48A37923A0D386000E4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF48A38523A0D3A0000E4589 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
-		DF48A38623A0D3A0000E4589 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		DF48A39123A0D529000E4589 /* TouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF48A39423A0D529000E4589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF48A39523A0D529000E4589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF48A39723A0D529000E4589 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF48A39823A0D529000E4589 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF48A39B23A0D529000E4589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF48A39D23A0D52A000E4589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF48A3A023A0D52A000E4589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF48A3A223A0D52A000E4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF48A3A323A0D52A000E4589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF48A3A923A0D52A000E4589 /* TouchTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF48A3AD23A0D52A000E4589 /* TouchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTestTests.m; sourceTree = "<group>"; };
+		DF48A3AF23A0D52A000E4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF48A3B423A0D52A000E4589 /* TouchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF48A3B823A0D52A000E4589 /* TouchTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTestUITests.m; sourceTree = "<group>"; };
+		DF48A3BA23A0D52A000E4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF48A3C623A0D547000E4589 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		DF48A3C723A0D547000E4589 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		DF48A3C923A0D7EA000E4589 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		DF48A3CA23A0D7EA000E4589 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF48A34D23A0D384000E4589 /* Frameworks */ = {
+		DF48A38E23A0D529000E4589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF48A36523A0D386000E4589 /* Frameworks */ = {
+		DF48A3A623A0D52A000E4589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF48A37023A0D386000E4589 /* Frameworks */ = {
+		DF48A3B123A0D52A000E4589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,58 +84,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF48A34723A0D384000E4589 = {
+		DF48A38823A0D529000E4589 = {
 			isa = PBXGroup;
 			children = (
-				DF48A35223A0D384000E4589 /* TouchTest */,
-				DF48A36B23A0D386000E4589 /* TouchTestTests */,
-				DF48A37623A0D386000E4589 /* TouchTestUITests */,
-				DF48A35123A0D384000E4589 /* Products */,
+				DF48A39323A0D529000E4589 /* TouchTest */,
+				DF48A3AC23A0D52A000E4589 /* TouchTestTests */,
+				DF48A3B723A0D52A000E4589 /* TouchTestUITests */,
+				DF48A39223A0D529000E4589 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF48A35123A0D384000E4589 /* Products */ = {
+		DF48A39223A0D529000E4589 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF48A35023A0D384000E4589 /* TouchTest.app */,
-				DF48A36823A0D386000E4589 /* TouchTestTests.xctest */,
-				DF48A37323A0D386000E4589 /* TouchTestUITests.xctest */,
+				DF48A39123A0D529000E4589 /* TouchTest.app */,
+				DF48A3A923A0D52A000E4589 /* TouchTestTests.xctest */,
+				DF48A3B423A0D52A000E4589 /* TouchTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF48A35223A0D384000E4589 /* TouchTest */ = {
+		DF48A39323A0D529000E4589 /* TouchTest */ = {
 			isa = PBXGroup;
 			children = (
-				DF48A35323A0D384000E4589 /* AppDelegate.h */,
-				DF48A35423A0D384000E4589 /* AppDelegate.m */,
-				DF48A35623A0D384000E4589 /* ViewController.h */,
-				DF48A35723A0D384000E4589 /* ViewController.m */,
-				DF48A38523A0D3A0000E4589 /* MyButton.h */,
-				DF48A38623A0D3A0000E4589 /* MyButton.m */,
-				DF48A35923A0D384000E4589 /* Main.storyboard */,
-				DF48A35C23A0D386000E4589 /* Assets.xcassets */,
-				DF48A35E23A0D386000E4589 /* LaunchScreen.storyboard */,
-				DF48A36123A0D386000E4589 /* Info.plist */,
-				DF48A36223A0D386000E4589 /* main.m */,
+				DF48A39423A0D529000E4589 /* AppDelegate.h */,
+				DF48A39523A0D529000E4589 /* AppDelegate.m */,
+				DF48A39723A0D529000E4589 /* ViewController.h */,
+				DF48A39823A0D529000E4589 /* ViewController.m */,
+				DF48A3C623A0D547000E4589 /* MyButton.h */,
+				DF48A3C723A0D547000E4589 /* MyButton.m */,
+				DF48A3C923A0D7EA000E4589 /* MyView.h */,
+				DF48A3CA23A0D7EA000E4589 /* MyView.m */,
+				DF48A39A23A0D529000E4589 /* Main.storyboard */,
+				DF48A39D23A0D52A000E4589 /* Assets.xcassets */,
+				DF48A39F23A0D52A000E4589 /* LaunchScreen.storyboard */,
+				DF48A3A223A0D52A000E4589 /* Info.plist */,
+				DF48A3A323A0D52A000E4589 /* main.m */,
 			);
 			path = TouchTest;
 			sourceTree = "<group>";
 		};
-		DF48A36B23A0D386000E4589 /* TouchTestTests */ = {
+		DF48A3AC23A0D52A000E4589 /* TouchTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF48A36C23A0D386000E4589 /* TouchTestTests.m */,
-				DF48A36E23A0D386000E4589 /* Info.plist */,
+				DF48A3AD23A0D52A000E4589 /* TouchTestTests.m */,
+				DF48A3AF23A0D52A000E4589 /* Info.plist */,
 			);
 			path = TouchTestTests;
 			sourceTree = "<group>";
 		};
-		DF48A37623A0D386000E4589 /* TouchTestUITests */ = {
+		DF48A3B723A0D52A000E4589 /* TouchTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DF48A37723A0D386000E4589 /* TouchTestUITests.m */,
-				DF48A37923A0D386000E4589 /* Info.plist */,
+				DF48A3B823A0D52A000E4589 /* TouchTestUITests.m */,
+				DF48A3BA23A0D52A000E4589 /* Info.plist */,
 			);
 			path = TouchTestUITests;
 			sourceTree = "<group>";
@@ -140,13 +145,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF48A34F23A0D384000E4589 /* TouchTest */ = {
+		DF48A39023A0D529000E4589 /* TouchTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF48A37C23A0D386000E4589 /* Build configuration list for PBXNativeTarget "TouchTest" */;
+			buildConfigurationList = DF48A3BD23A0D52A000E4589 /* Build configuration list for PBXNativeTarget "TouchTest" */;
 			buildPhases = (
-				DF48A34C23A0D384000E4589 /* Sources */,
-				DF48A34D23A0D384000E4589 /* Frameworks */,
-				DF48A34E23A0D384000E4589 /* Resources */,
+				DF48A38D23A0D529000E4589 /* Sources */,
+				DF48A38E23A0D529000E4589 /* Frameworks */,
+				DF48A38F23A0D529000E4589 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,68 +159,68 @@
 			);
 			name = TouchTest;
 			productName = TouchTest;
-			productReference = DF48A35023A0D384000E4589 /* TouchTest.app */;
+			productReference = DF48A39123A0D529000E4589 /* TouchTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF48A36723A0D386000E4589 /* TouchTestTests */ = {
+		DF48A3A823A0D52A000E4589 /* TouchTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF48A37F23A0D386000E4589 /* Build configuration list for PBXNativeTarget "TouchTestTests" */;
+			buildConfigurationList = DF48A3C023A0D52A000E4589 /* Build configuration list for PBXNativeTarget "TouchTestTests" */;
 			buildPhases = (
-				DF48A36423A0D386000E4589 /* Sources */,
-				DF48A36523A0D386000E4589 /* Frameworks */,
-				DF48A36623A0D386000E4589 /* Resources */,
+				DF48A3A523A0D52A000E4589 /* Sources */,
+				DF48A3A623A0D52A000E4589 /* Frameworks */,
+				DF48A3A723A0D52A000E4589 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF48A36A23A0D386000E4589 /* PBXTargetDependency */,
+				DF48A3AB23A0D52A000E4589 /* PBXTargetDependency */,
 			);
 			name = TouchTestTests;
 			productName = TouchTestTests;
-			productReference = DF48A36823A0D386000E4589 /* TouchTestTests.xctest */;
+			productReference = DF48A3A923A0D52A000E4589 /* TouchTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DF48A37223A0D386000E4589 /* TouchTestUITests */ = {
+		DF48A3B323A0D52A000E4589 /* TouchTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF48A38223A0D386000E4589 /* Build configuration list for PBXNativeTarget "TouchTestUITests" */;
+			buildConfigurationList = DF48A3C323A0D52A000E4589 /* Build configuration list for PBXNativeTarget "TouchTestUITests" */;
 			buildPhases = (
-				DF48A36F23A0D386000E4589 /* Sources */,
-				DF48A37023A0D386000E4589 /* Frameworks */,
-				DF48A37123A0D386000E4589 /* Resources */,
+				DF48A3B023A0D52A000E4589 /* Sources */,
+				DF48A3B123A0D52A000E4589 /* Frameworks */,
+				DF48A3B223A0D52A000E4589 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF48A37523A0D386000E4589 /* PBXTargetDependency */,
+				DF48A3B623A0D52A000E4589 /* PBXTargetDependency */,
 			);
 			name = TouchTestUITests;
 			productName = TouchTestUITests;
-			productReference = DF48A37323A0D386000E4589 /* TouchTestUITests.xctest */;
+			productReference = DF48A3B423A0D52A000E4589 /* TouchTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF48A34823A0D384000E4589 /* Project object */ = {
+		DF48A38923A0D529000E4589 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = PanYibin;
 				TargetAttributes = {
-					DF48A34F23A0D384000E4589 = {
+					DF48A39023A0D529000E4589 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					DF48A36723A0D386000E4589 = {
+					DF48A3A823A0D52A000E4589 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = DF48A34F23A0D384000E4589;
+						TestTargetID = DF48A39023A0D529000E4589;
 					};
-					DF48A37223A0D386000E4589 = {
+					DF48A3B323A0D52A000E4589 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = DF48A34F23A0D384000E4589;
+						TestTargetID = DF48A39023A0D529000E4589;
 					};
 				};
 			};
-			buildConfigurationList = DF48A34B23A0D384000E4589 /* Build configuration list for PBXProject "TouchTest" */;
+			buildConfigurationList = DF48A38C23A0D529000E4589 /* Build configuration list for PBXProject "TouchTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +228,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DF48A34723A0D384000E4589;
-			productRefGroup = DF48A35123A0D384000E4589 /* Products */;
+			mainGroup = DF48A38823A0D529000E4589;
+			productRefGroup = DF48A39223A0D529000E4589 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF48A34F23A0D384000E4589 /* TouchTest */,
-				DF48A36723A0D386000E4589 /* TouchTestTests */,
-				DF48A37223A0D386000E4589 /* TouchTestUITests */,
+				DF48A39023A0D529000E4589 /* TouchTest */,
+				DF48A3A823A0D52A000E4589 /* TouchTestTests */,
+				DF48A3B323A0D52A000E4589 /* TouchTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF48A34E23A0D384000E4589 /* Resources */ = {
+		DF48A38F23A0D529000E4589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF48A36023A0D386000E4589 /* LaunchScreen.storyboard in Resources */,
-				DF48A35D23A0D386000E4589 /* Assets.xcassets in Resources */,
-				DF48A35B23A0D384000E4589 /* Main.storyboard in Resources */,
+				DF48A3A123A0D52A000E4589 /* LaunchScreen.storyboard in Resources */,
+				DF48A39E23A0D52A000E4589 /* Assets.xcassets in Resources */,
+				DF48A39C23A0D529000E4589 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF48A36623A0D386000E4589 /* Resources */ = {
+		DF48A3A723A0D52A000E4589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF48A37123A0D386000E4589 /* Resources */ = {
+		DF48A3B223A0D52A000E4589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,61 +268,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF48A34C23A0D384000E4589 /* Sources */ = {
+		DF48A38D23A0D529000E4589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF48A35823A0D384000E4589 /* ViewController.m in Sources */,
-				DF48A36323A0D386000E4589 /* main.m in Sources */,
-				DF48A35523A0D384000E4589 /* AppDelegate.m in Sources */,
-				DF48A38723A0D3A0000E4589 /* MyButton.m in Sources */,
+				DF48A39923A0D529000E4589 /* ViewController.m in Sources */,
+				DF48A3A423A0D52A000E4589 /* main.m in Sources */,
+				DF48A39623A0D529000E4589 /* AppDelegate.m in Sources */,
+				DF48A3C823A0D547000E4589 /* MyButton.m in Sources */,
+				DF48A3CB23A0D7EA000E4589 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF48A36423A0D386000E4589 /* Sources */ = {
+		DF48A3A523A0D52A000E4589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF48A36D23A0D386000E4589 /* TouchTestTests.m in Sources */,
+				DF48A3AE23A0D52A000E4589 /* TouchTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF48A36F23A0D386000E4589 /* Sources */ = {
+		DF48A3B023A0D52A000E4589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF48A37823A0D386000E4589 /* TouchTestUITests.m in Sources */,
+				DF48A3B923A0D52A000E4589 /* TouchTestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF48A36A23A0D386000E4589 /* PBXTargetDependency */ = {
+		DF48A3AB23A0D52A000E4589 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF48A34F23A0D384000E4589 /* TouchTest */;
-			targetProxy = DF48A36923A0D386000E4589 /* PBXContainerItemProxy */;
+			target = DF48A39023A0D529000E4589 /* TouchTest */;
+			targetProxy = DF48A3AA23A0D52A000E4589 /* PBXContainerItemProxy */;
 		};
-		DF48A37523A0D386000E4589 /* PBXTargetDependency */ = {
+		DF48A3B623A0D52A000E4589 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF48A34F23A0D384000E4589 /* TouchTest */;
-			targetProxy = DF48A37423A0D386000E4589 /* PBXContainerItemProxy */;
+			target = DF48A39023A0D529000E4589 /* TouchTest */;
+			targetProxy = DF48A3B523A0D52A000E4589 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF48A35923A0D384000E4589 /* Main.storyboard */ = {
+		DF48A39A23A0D529000E4589 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF48A35A23A0D384000E4589 /* Base */,
+				DF48A39B23A0D529000E4589 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DF48A35E23A0D386000E4589 /* LaunchScreen.storyboard */ = {
+		DF48A39F23A0D52A000E4589 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF48A35F23A0D386000E4589 /* Base */,
+				DF48A3A023A0D52A000E4589 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -325,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF48A37A23A0D386000E4589 /* Debug */ = {
+		DF48A3BB23A0D52A000E4589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		DF48A37B23A0D386000E4589 /* Release */ = {
+		DF48A3BC23A0D52A000E4589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,12 +443,11 @@
 			};
 			name = Release;
 		};
-		DF48A37D23A0D386000E4589 /* Debug */ = {
+		DF48A3BE23A0D52A000E4589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HT9AU3K28P;
 				INFOPLIST_FILE = TouchTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,12 +459,11 @@
 			};
 			name = Debug;
 		};
-		DF48A37E23A0D386000E4589 /* Release */ = {
+		DF48A3BF23A0D52A000E4589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HT9AU3K28P;
 				INFOPLIST_FILE = TouchTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +475,7 @@
 			};
 			name = Release;
 		};
-		DF48A38023A0D386000E4589 /* Debug */ = {
+		DF48A3C123A0D52A000E4589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,7 +493,7 @@
 			};
 			name = Debug;
 		};
-		DF48A38123A0D386000E4589 /* Release */ = {
+		DF48A3C223A0D52A000E4589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,7 +511,7 @@
 			};
 			name = Release;
 		};
-		DF48A38323A0D386000E4589 /* Debug */ = {
+		DF48A3C423A0D52A000E4589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -524,7 +528,7 @@
 			};
 			name = Debug;
 		};
-		DF48A38423A0D386000E4589 /* Release */ = {
+		DF48A3C523A0D52A000E4589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -544,43 +548,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF48A34B23A0D384000E4589 /* Build configuration list for PBXProject "TouchTest" */ = {
+		DF48A38C23A0D529000E4589 /* Build configuration list for PBXProject "TouchTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF48A37A23A0D386000E4589 /* Debug */,
-				DF48A37B23A0D386000E4589 /* Release */,
+				DF48A3BB23A0D52A000E4589 /* Debug */,
+				DF48A3BC23A0D52A000E4589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF48A37C23A0D386000E4589 /* Build configuration list for PBXNativeTarget "TouchTest" */ = {
+		DF48A3BD23A0D52A000E4589 /* Build configuration list for PBXNativeTarget "TouchTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF48A37D23A0D386000E4589 /* Debug */,
-				DF48A37E23A0D386000E4589 /* Release */,
+				DF48A3BE23A0D52A000E4589 /* Debug */,
+				DF48A3BF23A0D52A000E4589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF48A37F23A0D386000E4589 /* Build configuration list for PBXNativeTarget "TouchTestTests" */ = {
+		DF48A3C023A0D52A000E4589 /* Build configuration list for PBXNativeTarget "TouchTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF48A38023A0D386000E4589 /* Debug */,
-				DF48A38123A0D386000E4589 /* Release */,
+				DF48A3C123A0D52A000E4589 /* Debug */,
+				DF48A3C223A0D52A000E4589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF48A38223A0D386000E4589 /* Build configuration list for PBXNativeTarget "TouchTestUITests" */ = {
+		DF48A3C323A0D52A000E4589 /* Build configuration list for PBXNativeTarget "TouchTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF48A38323A0D386000E4589 /* Debug */,
-				DF48A38423A0D386000E4589 /* Release */,
+				DF48A3C423A0D52A000E4589 /* Debug */,
+				DF48A3C523A0D52A000E4589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF48A34823A0D384000E4589 /* Project object */;
+	rootObject = DF48A38923A0D529000E4589 /* Project object */;
 }
