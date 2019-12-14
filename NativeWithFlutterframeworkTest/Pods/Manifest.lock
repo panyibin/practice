@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: bf96aac3a6e450404067a8184f753ed4e83402c1
+PODS:
+  - Flutter (1.0.0)
+  - my_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `./FlutterFramework/engine/`)
+  - my_flutter (from `./FlutterFramework/App/`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "./FlutterFramework/engine/"
+  my_flutter:
+    :path: "./FlutterFramework/App/"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  my_flutter: c0ca42721b3297bc8d54e93782ac00730d3bd1a1
+
+PODFILE CHECKSUM: d6ccbce3af695e434ef04de14b7b2f976ca39bbe
 
 COCOAPODS: 1.8.4

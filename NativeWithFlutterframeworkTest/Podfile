@@ -6,8 +6,8 @@ target 'NativeWithFlutterframeworkTest' do
 #  use_frameworks!
 
   # Pods for NativeWithFlutterframeworkTest
-#  pod 'Flutter', :path => './FlutterFramework/engine/'
-#  pod 'my_flutter', :path => './FlutterFramework/App/'
+  pod 'Flutter', :path => './FlutterFramework/engine/'
+  pod 'my_flutter', :path => './FlutterFramework/App/'
 
   target 'NativeWithFlutterframeworkTestTests' do
     inherit! :search_paths

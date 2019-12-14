@@ -10,6 +10,8 @@
 		35943FB76BCA54ED59703CC4 /* libPods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 212A457782A435B9F1569139 /* libPods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests.a */; };
 		A65134DE64C35F5311E6313C /* libPods-NativeWithFlutterframeworkTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FE303F773CAE880C8A3ADC /* libPods-NativeWithFlutterframeworkTest.a */; };
 		B5BAD1469C2443CA4E5678F9 /* libPods-NativeWithFlutterframeworkTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5F01959FE0A7F9DFA5580A /* libPods-NativeWithFlutterframeworkTestTests.a */; };
+		DFA321D823A4CEB200F1E69F /* YDFlutterMethodChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA321D523A4CEB200F1E69F /* YDFlutterMethodChannel.m */; };
+		DFA321D923A4CEB200F1E69F /* YDFlutterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA321D723A4CEB200F1E69F /* YDFlutterManager.m */; };
 		DFCE19BB23A4BF1600694D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE19BA23A4BF1600694D8C /* AppDelegate.m */; };
 		DFCE19BE23A4BF1600694D8C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE19BD23A4BF1600694D8C /* SceneDelegate.m */; };
 		DFCE19C123A4BF1600694D8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE19C023A4BF1600694D8C /* ViewController.m */; };
@@ -47,6 +49,10 @@
 		B3FE303F773CAE880C8A3ADC /* libPods-NativeWithFlutterframeworkTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeWithFlutterframeworkTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2902B9791B7384293357D94 /* Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE5F01959FE0A7F9DFA5580A /* libPods-NativeWithFlutterframeworkTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeWithFlutterframeworkTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA321D423A4CEB100F1E69F /* YDFlutterMethodChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFlutterMethodChannel.h; sourceTree = "<group>"; };
+		DFA321D523A4CEB200F1E69F /* YDFlutterMethodChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDFlutterMethodChannel.m; sourceTree = "<group>"; };
+		DFA321D623A4CEB200F1E69F /* YDFlutterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFlutterManager.h; sourceTree = "<group>"; };
+		DFA321D723A4CEB200F1E69F /* YDFlutterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDFlutterManager.m; sourceTree = "<group>"; };
 		DFCE19B623A4BF1600694D8C /* NativeWithFlutterframeworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeWithFlutterframeworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCE19B923A4BF1600694D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFCE19BA23A4BF1600694D8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -150,6 +156,10 @@
 				DFCE19BD23A4BF1600694D8C /* SceneDelegate.m */,
 				DFCE19BF23A4BF1600694D8C /* ViewController.h */,
 				DFCE19C023A4BF1600694D8C /* ViewController.m */,
+				DFA321D623A4CEB200F1E69F /* YDFlutterManager.h */,
+				DFA321D723A4CEB200F1E69F /* YDFlutterManager.m */,
+				DFA321D423A4CEB100F1E69F /* YDFlutterMethodChannel.h */,
+				DFA321D523A4CEB200F1E69F /* YDFlutterMethodChannel.m */,
 				DFCE19C223A4BF1600694D8C /* Main.storyboard */,
 				DFCE19C523A4BF1800694D8C /* Assets.xcassets */,
 				DFCE19C723A4BF1800694D8C /* LaunchScreen.storyboard */,
@@ -188,6 +198,7 @@
 				DFCE19B223A4BF1600694D8C /* Sources */,
 				DFCE19B323A4BF1600694D8C /* Frameworks */,
 				DFCE19B423A4BF1600694D8C /* Resources */,
+				64BF6F02D283EE19714CD9C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +236,7 @@
 				DFCE19D823A4BF1800694D8C /* Sources */,
 				DFCE19D923A4BF1800694D8C /* Frameworks */,
 				DFCE19DA23A4BF1800694D8C /* Resources */,
+				1F18A59CC4FB7A538A25437B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +318,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F18A59CC4FB7A538A25437B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests/Pods-NativeWithFlutterframeworkTest-NativeWithFlutterframeworkTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		251BF014DB1B7D2702A204ED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +379,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		64BF6F02D283EE19714CD9C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeWithFlutterframeworkTest/Pods-NativeWithFlutterframeworkTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeWithFlutterframeworkTest/Pods-NativeWithFlutterframeworkTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeWithFlutterframeworkTest/Pods-NativeWithFlutterframeworkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		930F86031538B05DF198DFAE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,7 +428,9 @@
 				DFCE19C123A4BF1600694D8C /* ViewController.m in Sources */,
 				DFCE19BB23A4BF1600694D8C /* AppDelegate.m in Sources */,
 				DFCE19CC23A4BF1800694D8C /* main.m in Sources */,
+				DFA321D823A4CEB200F1E69F /* YDFlutterMethodChannel.m in Sources */,
 				DFCE19BE23A4BF1600694D8C /* SceneDelegate.m in Sources */,
+				DFA321D923A4CEB200F1E69F /* YDFlutterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,14 +601,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HT9AU3K28P;
+				DEVELOPMENT_TEAM = 44PEC532MQ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NativeWithFlutterframeworkTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yidian.NativeWithFlutterframeworkTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidian.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -572,14 +620,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HT9AU3K28P;
+				DEVELOPMENT_TEAM = 44PEC532MQ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NativeWithFlutterframeworkTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yidian.NativeWithFlutterframeworkTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidian.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
